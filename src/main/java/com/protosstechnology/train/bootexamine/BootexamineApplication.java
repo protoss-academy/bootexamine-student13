@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BootexamineApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BootexamineApplication.class, args);
+		SpringApplication.run(BootexamineApplication.class, args); 
 	}
 
 }
