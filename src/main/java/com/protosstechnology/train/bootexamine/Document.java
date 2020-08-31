@@ -17,6 +17,11 @@ public class Document {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	public Document( String documentNumber, String description) {
+		super();
+		this.documentNumber = documentNumber;
+		this.description = description;
+	}
 	public Document(Long id, String documentNumber, String description) {
 		super();
 		this.id = id;
